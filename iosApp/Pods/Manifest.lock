@@ -1,0 +1,23 @@
+PODS:
+  - DGisMobileSDK (10.5.0-map)
+  - shared (1.0):
+    - DGisMobileSDK (~> 10.5.0-map)
+
+DEPENDENCIES:
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - DGisMobileSDK
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  DGisMobileSDK: 4df15fe6a9abc4d7f178c0f8d604535669cac77b
+  shared: 7397496004324668fe9ee5c0d07048ec9d360f51
+
+PODFILE CHECKSUM: 78d6cc1b71b232202c48a29d4e6c34972c534c73
+
+COCOAPODS: 1.15.2
